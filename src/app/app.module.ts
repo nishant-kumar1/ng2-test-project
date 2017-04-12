@@ -8,6 +8,7 @@ import { HomeComponent } from './home/home.component'
 import { LinkComponent } from './links/links.component'
 
 const appRoutes: Routes = [
+    { path: '', component: HomeComponent },
     { path: "Home", component: HomeComponent },
     { path: "CompetitiveAnalysis", component: CompetitiveAnalysisComponent },
     { path: "Glossary", component: GlossaryComponent },
