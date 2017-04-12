@@ -1,0 +1,288 @@
+/* ----------------------------------------------------------------------------
+    Purpose:
+        Global CSS Styles   
+/*  ----------------------------------------------------------------------------
+    Table Of Contents
+    1. Resets & Defaults
+        a. Resets
+        b. Defaults    
+*/
+/*  ----------------------------------------------------------------------------
+    (1) Defaults & Resets */
+/*  ----------------------------------------
+    (1a) Defaults & Resets - Resets */
+
+*,
+form {
+    margin: 0;
+    padding: 0;
+}
+a img {
+    border: none;
+}
+img {
+    -ms-interpolation-mode: bicubic;
+}
+/* Help IE resize /static/images if needed. */
+
+ul,
+ol {
+    list-style-type: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+b,
+b *,
+strong * {
+    font-weight: normal;
+}
+/* QC# 13257 */
+/*  ----------------------------------------
+    (1b) Defaults & Resets - Defaults */
+
+html,
+body {
+    font-family: "Arial";
+    font-size: 14px;
+}
+.container-fluid {
+    max-width: 1920px;
+    min-width: 1004px;
+    padding: 0 10px;
+    width: 100%;
+}
+.row {
+    margin-right: -10px;
+    margin-left: -10px;
+}
+.container {
+    width: 100%;
+}
+.inactive {
+    display: none;
+}
+.active {
+    display: block;
+}
+
+/*Font color*/
+
+.fontWhite {
+    color: #fff;
+}
+.fontRed {
+    color: #ff4f4f;
+}
+.fontGreen {
+    color: #12a87c;
+}
+.fontYellow {
+    color: #ffc505;
+}
+.fontBlue {
+    color: #2065a7;
+}
+.fontLightBlue {
+    color: #08AAC5
+}
+.fontLightGrey {
+    color: #ccc
+}
+/*Background Color*/
+
+.bgLightBlue {
+    background: #2c72b5;
+}
+.bgDarkBlue {
+    background: #0c457b;
+}
+.bgRed {
+    background: #ff4f4f;
+}
+.bgGreen {
+    background: #07b07d;
+}
+.bg-ebf1f5 {
+    background: #ebf1f5;
+}
+.bgYellow {
+    background: #ffc505;
+}
+.bgDarkGrey {
+    background: #ccc;
+}
+.bgGrey {
+    background: #d1dfeb;
+}
+.bgLightGrey {
+    background: #f5f8fa;
+}
+.bgGreyf5f5f5{
+background:#f5f5f5;
+}
+/*end*/
+/*Border*/
+
+.blueBorder {
+    border: 1px solid #0c457b;
+}
+.greyBorder {
+    border: 1px solid #a7aeb3;
+}
+.whiteBorder {
+    border-bottom: 1px solid #fff;
+}
+/*Custum Width*/
+/*Table CSS*/
+
+.table {
+    margin-bottom: 0;
+    width: 100%;
+}
+
+
+/*Font Size*/
+
+.f12 {
+    font: 12px arial;
+}
+/**/
+
+.mt35 {
+    margin-top: -35px;
+}
+.mr0 {
+    margin-right: 0px;
+}
+.mt5 {
+    margin-top: 5px;
+}
+.mt10 {
+    margin-top: 10px;
+}
+.ml10 {
+    margin-left: 10px;
+}
+.mr10 {
+    margin-right: 10px;
+}
+.mr20 {
+    margin-right: 20px;
+}
+.mr30 {
+    margin-right: 30px;
+}
+.pd10 {
+    padding: 10px;
+}
+.p0 {
+    padding: 0px;
+}
+.p5 {
+    padding: 5px;
+}
+.m0 {
+    margin: 0px;
+}
+.mrb12 {
+    margin-bottom: 12px;
+}
+.pr10 {
+    padding-right: 10px;
+}
+.pl10 {
+    padding-left: 10px;
+}
+.pr0 {
+    padding-right: 0px;
+}
+.pl0 {
+    padding-left: 0px;
+}
+/*End*/
+/*Text Align*/
+
+
+.userInfoContainer::before {
+    background: url("../icons/sprite.png");
+    background-position: -54px -5px;
+    content: "";
+    height: 36px;
+    margin-left: -43px;
+    position: absolute;
+    width: 37px;
+}
+
+/*END*/
+/* css code for header*/
+
+.mainHeader {
+    padding: 10px 0;
+}
+.bgblack {
+    background-color: #df7a1c;
+}
+.navbar-logo,
+.breadcumContainer {
+    display: inline;
+    float: left;
+}
+.breadcumContainer div {
+    float: right;
+}
+.navbar-logo {
+    margin-right: 5%;
+}
+.navbar-logo img {
+    height: 50px;
+    width: 100px;
+	
+}
+.infoTitle {
+    color: white;
+    font-size: 30px;
+    
+}
+/*Icon CSS*/
+.icons {
+    display: inline-block;
+    height: 17px;
+    margin-right: 10px;
+    width: 16px;
+    background: url("../icons/sprite.png");
+}
+.bacisDetailsIcon {
+    background-position: -276px -14px;
+}
+
+
+/*END*/
+/*end of new header*/
+/* css code for menubar*/
+
+.menu ul li {
+    float: left;
+}
+.menu ul li a {
+    color: #000;
+    float: left;
+    font: 17px Arial;
+    margin: 10px 30px 0px 0;
+    padding-bottom: 10px;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+}
+.menu ul li a:hover,
+.menu ul li a.active {
+    border-bottom: 2px solid #0c457b;
+}
+
+/*END*/
+/*PopUp CSS*/
+
+
+/*END*/
